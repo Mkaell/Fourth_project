@@ -1,10 +1,19 @@
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     .header {
         justify-content: space-around;
     }
+    .carousel {
+        &__inner {
+            width: 750px;
+            img {
+                width: 100%;
+            }
+        }
+
+    }
     
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
     .promo {
         &__wrapper {
             padding: 0 56px 0 0;
@@ -17,6 +26,45 @@
     }
     .consultation {
         padding: 100px 0 100px 80px;
+    }
+    .carousel {
+        &__inner {
+            width: 580px;
+            img {
+                width:100%;
+            }
+            .slick-dots {
+                margin-top: 10px;
+                padding: 0 0 0 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                li {
+                    list-style: none;
+                    margin: 0 10px;
+                    &.slick-active {
+                        button {
+                            background-color: #fff;
+                            border: 1px solid black;
+                        }
+                    }
+
+                    
+                }
+                button {
+                    padding: 0 0 0 0;
+                    font-size: 0;
+                    width: 10px;
+                    height: 10px;
+                    background-color:black;
+                    border-radius: 50%;
+                }
+     
+    
+            }
+        }
+
+
     }
 }
 @media screen and (max-width:767px) {
@@ -93,7 +141,15 @@
     .button_submit {
         width: 300px;
     }
+    .carousel {
+        &__inner {
+            width: 450px;
+            img {
+                width:100%;
+            }
+        }
 
+    }   
 }
 @media screen and (max-width:575px) {
     .promo {
@@ -179,4 +235,13 @@
     .button_submit {
         width: 260px;
     }
+    .carousel {
+        &__inner {
+            width: 300px;
+            img {
+                width:100%;
+            }
+        }
+
+    } 
 }
