@@ -1,5 +1,6 @@
-
 $(document).ready(function () {
+
+    // Slider
     $('.carousel__inner').slick({
         speed: 1200,
         // adaptiveHeight: true,
@@ -53,7 +54,7 @@ $(document).ready(function () {
     });
 
 
-
+    // Form validation
     function validateForms(form) {
         $(form).validate({
             rules: {
@@ -85,8 +86,9 @@ $(document).ready(function () {
     validateForms('#consultation form');
     validateForms('#order form');
 
-
+    // Mask of the phone
     $('input[name=phone]').mask("+375 (99) 999-99-99");
+
 
     $('form').submit(function (e) {
         e.preventDefault();
