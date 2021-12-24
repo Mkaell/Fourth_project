@@ -37,7 +37,7 @@ gulp
 
 <div align="center">
   <img src="./src/img/screens/screen-first.png" align="center" width='49%'>
-  <img src="./src/img/screens/screen-second.png"align="center" width='49%'>
   <img src="./src/img/screens/screen-third.png"align="center" width='49%'>
   <img src="./src/img/screens/screen-fourth.png"align="center" width='49%'>
+  <img src="./src/img/screens/screen-second.png"align="center" width='49%'>
 </div>
